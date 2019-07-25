@@ -156,14 +156,14 @@ input:focus {
     border: 1px solid #cfcff5;
 }
 .header .logged-area .btn-group button strong {
-    color: black;
+    color: #464949;
 }
 .header .logged-area .btn-group .caret {
     margin-left: 5px;
 }
 
 .navigation {
-    background-color: black;
+    background-color:  #464949;
     position: relative;
 }
 .navigation ul {
@@ -293,7 +293,7 @@ a.maisBanner:hover {
     width: 100%;
 }
 .footer {
-    background-color: black;
+    background-color:  #464949;
     margin-top: 30px;
     color: #ececfb;
     letter-spacing: 1px;
@@ -386,7 +386,7 @@ a.maisBanner:hover {
     margin-right: 5px
 }
 .three-box .box-title {
-    background-color: #4b4c4c;
+    background-color:  #464949;
     color: #ececfb;
     font-size: 22px;
     font-family: 'Lato', cursive;
@@ -601,7 +601,7 @@ a.maisBanner:hover {
     line-height: 38px;
     height: 38px;
     font-size: 20px;
-    background-color: #662c91;
+    background-color:  #464949;
     color: #ececfb;
     margin: 35px 0;
     position: relative;
@@ -617,7 +617,7 @@ a.maisBanner:hover {
     top: -25px;
     left: 1%;
     background-color: #ececfb;
-    border: 4px solid #662c91;
+    border: 4px solid  #464949;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background-clip: padding-box;
@@ -632,10 +632,10 @@ a.maisBanner:hover {
     background-clip: padding-box;
 }
 .servico .item h2:hover {
-    background-color: #8d57a3
+    background-color:  #464949;
 }
 .servico .item h2:hover .servico-icon {
-    border-color: #8d57a3
+    border-color: #202020
 }
 .servico .item .item-box {
     padding-bottom: 30px
@@ -660,13 +660,13 @@ a.maisBanner:hover {
     background-clip: padding-box;
 }
 .servico .item .item-box .photo-list a:hover {
-    border-color: #8d57a3
+    border-color:  #464949
 }
 .servico .item .item-box .photo-list a.active,
 .servico .item .item-box .photo-list a:active {
-    border-color: #8d57a3;
-    -webkit-box-shadow: 0 0 7px 0 #662c91;
-    box-shadow: 0 0 7px 0 #662c91;
+    border-color:  #464949;
+    -webkit-box-shadow: 0 0 7px 0  #464949;
+    box-shadow: 0 0 7px 0  #464949;
 }
 .servico .item .item-box .photo-list a:hover .ico,
 .servico .item .item-box .photo-list a:hover:before {
@@ -718,7 +718,7 @@ a.maisBanner:hover {
     padding: 10px 10px;
     width: 100%;
     margin-bottom: 10px;
-    border: 1px solid #777;
+    border: 1px solid #464949;
     font-family: 'Quattrocento Sans', sans-serif;
     color: #666
 }
@@ -728,7 +728,7 @@ a.maisBanner:hover {
 }
 .contatos .form form .input-submit {
     border: 0;
-    background-color: #777;
+    background-color: #464949;
     color: #fff;
     font-family: 'Lato', cursive;
     font-size: 18px;
@@ -761,7 +761,7 @@ a.maisBanner:hover {
     line-height: 30px
 }
 .text {
-    color: #777;
+    color: #464949;
     font-size: 16px;
     line-height: 190%;
 }
@@ -769,7 +769,7 @@ a.maisBanner:hover {
     margin-bottom: 10px
 }
 .text a {
-    color: #777;
+    color: #464949;
     display: inline-block
 }
 .text a:hover {
@@ -785,9 +785,9 @@ a.maisBanner:hover {
     background-color: #ececfb
 }
 .error-page .topo {
-    background: #662c91;
+    background: #464949;
     width: 100%;
-    border-bottom: solid 6px #8d57a3;
+    border-bottom: solid 6px #464949;
 }
 .error-page .topo a {
     color: #fff;
@@ -1019,16 +1019,16 @@ a.maisBanner:hover {
 .title_blog:before {
     position: absolute;
     content: '';
-    border-bottom: dashed 1px #662c91;
+    border-bottom: dashed 1px #464949;
     top: 45%;
     left: 0;
     width: 100%;
 }
 
 .title_blog h1 {
-    font-family: 'The Girl Next Door', cursive;
+    font-family: 'Lato', cursive;
     font-size: 90px;
-    color: #662c91;
+    color: ##464949;
     background-color: #ececfb;
     display: inline-block;
     padding: 0 30px;
@@ -1040,7 +1040,7 @@ a.maisBanner:hover {
 }
 
 .title_blog h2 {
-    color: #662c91;
+    color: #464949;
     margin: 0;
     font-size: 20px;
     font-weight: normal;
@@ -1068,7 +1068,7 @@ a.maisBanner:hover {
     position: absolute;
     width: 1px;
     opacity: 1;
-    border-bottom: 5px solid #662c91;
+    border-bottom: 5px solid #464949;
     bottom: 0;
     left: -2px;
     z-index: 1;
@@ -1128,7 +1128,7 @@ a.maisBanner:hover {
 .txt_boxbloghome span:before {
     position: absolute;
     content: '';
-    border-bottom: solid 1px #662c91;
+    border-bottom: solid 1px #464949;
     bottom: -6px;
     left: 0;
     width: 40%;
@@ -1159,7 +1159,7 @@ a.maisBanner:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(102,44,145,0.7);
+    background-color: rgba(66, 66, 66, 0.7);
     opacity: 0;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -1201,7 +1201,7 @@ a.maisBanner:hover {
     position: absolute;
     content: '';
     width: 45%;
-    border-bottom: solid 1px #662c91;
+    border-bottom: solid 1px #464949;
     bottom: -6px;
     left: 0;
 }
@@ -1213,9 +1213,9 @@ a.maisBanner:hover {
 }
 
 .categories_blog h2 {
-    font-family: 'The Girl Next Door', cursive;
+    font-family: 'Lato', cursive;
     font-size: 36px;
-    color: #662c91;
+    color: #464949;
 }
 
 .categories_blog ul {
@@ -1241,12 +1241,12 @@ a.maisBanner:hover {
 
 .categories_blog ul li a:hover {
     color: inherit;
-    border-color: #662c91;
+    border-color: #464949;
 }
 
 .categories_blog ul li a.active {
     color: inherit;
-    border-color: #662c91;
+    border-color: #616363;
 }
 
 .cover {
