@@ -90,12 +90,17 @@
 <!-- Nav Section -->
 <nav>
 	<div class="nav_bar">
-        <a href="javascript:;" class="btn_menu_mobile"><span></span></a>
+        <a href="javascript:;" class="btn_menu_mobile"><span>
+			
+		</span></a>
     </div>
+	
+
+
 	<div class="navigation">
 		<div class="container">
 			<ul class="list-inline">
-				<li><a href="index.html" title="" class="active">Home</a></li>
+                    <li><a href="index.html" title="" class="active">Home</a></li>
                     <li><a href="perfil.html" title="" class="">Perfil</a></li>
                     <li><a href="projetos.html" title="" class="">Projetos</a></li>
                     <li><a href="midia.html" title="" class="">Mídia</a></li>
@@ -104,6 +109,56 @@
 		</div>
 	</div>
 </nav>
+
+
+		<!-- Banner Section -->
+		<div class="small-banner" style="background: transparent url('img/BANNER3.png') no-repeat scroll center; background-size: cover; height: 230px"></div>		
+
+
+
+
+		<!-- Content -->
+			<!-- Three Box Section -->
+			<div class="container perfil">
+
+				<h2 class="page-title">Perfil</h2>
+		
+				<!-- First box -->
+				<section>
+					<div class="dotted">
+						<h3 class="sub-title">Formação acadêmica</h3>
+						<div class="dot"></div>
+					</div>
+					<div class="text"><ul>
+			<li>Arquitetura e Urbanismo =</li>
+			<li>Tecnologia em Construção Civil </li>
+			<li>Técnico em Edificações </li>
+			<li>Técnico em Designer de Interiores </li>
+		</ul>
+		</div>
+				</section>
+		
+				<!-- Second box -->
+				<section>
+					<div class="dotted">
+						<h3 class="sub-title">Histórico profissional</h3>
+						<div class="dot"></div>
+					</div>
+					<div class="text"> <p style="text-align: justify;" >Lorem ipsum eleifend urna suscipit tortor pretium porta duis, urna porttitor sodales ipsum vel scelerisque fringilla aenean, eget amet senectus sapien mi praesent porta. 
+						<p style="text-align: justify;">eleifend nibh libero neque mi litora libero metus, volutpat egestas orci per iaculis neque sollicitudin tellus, leo donec curae faucibus turpis fringilla. 
+						</p>
+
+						<p style="text-align: justify;">
+							auctor ac potenti at proin hendrerit condimentum vel tortor dictumst urna enim, donec suscipit accumsan semper quam malesuada porttitor class viverra. varius posuere habitasse eget integer ad quisque nisi mollis curae, nisi bibendum mattis gravida id congue dolor duis, rutrum curae etiam egestas enim nec torquent primis. 
+						</p >
+						
+					</p>
+		</div>
+				</section>
+		</div>	
+		
+				<!-- Third box -->
+				
 
 
 		<!-- Footer Section -->
@@ -129,9 +184,9 @@
 
 					<div class="social-media">
 													<a href="linkedinLInk" class="whatsapp" target="_blank"><i class="fab fa-linkedin"></i></a>
-																			<a href="" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+																			<a href="#" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
 						
-													<a href="" class="instagram" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+													<a href="#" class="instagram" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
 						
 																							</div>
 
@@ -151,12 +206,12 @@
 		</div>
 	</div>
 
-	<a href="http://api.whatsapp.com/send?1=pt_BR&amp;phone=5515981465511" target="_blank" class="btn_whats fab fa-whatsapp"></a>
+	<a href="http://api.whatsapp.com/send?1=pt_BR&amp;phone=5500000000" target="_blank" class="btn_whats fab fa-whatsapp"></a>
 
 </footer>
 
 		<!-- Last Scripts -->
-		<script src="js/public/vendor/jquery-3.4.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script src="js/public/vendor/bootstrap.min.js"></script>
 		<script src="js/public/vendor/smoothscroll.js"></script>
 		<script src="js/swiper.jquery.js"></script>
@@ -164,31 +219,25 @@
 		<script src="js/public/main.js"></script>
 		
 
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-codigoAqui', 'index.html');
-		  ga('send', 'pageview');
-
-
           var swiper = new Swiper('.swiper-container', {
               pagination: '.swiper-pagination',
               paginationClickable: true,
               autoplay: 4000,
               loop: true
-          });
 
+          });
+		</script>
+		
+	<script>
+	
           $('.btn_menu_mobile').on('click' , function(){
               $(this).toggleClass('active');
               $('.list-inline').slideToggle();
               $('.list-inline').toggleClass('active');
-          });
+		  });
+		  </script>
 
-		</script>
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57a9cfe47325c94a"></script>
 
 	</body>

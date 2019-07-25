@@ -156,14 +156,14 @@ input:focus {
     border: 1px solid #cfcff5;
 }
 .header .logged-area .btn-group button strong {
-    color: #4b4c4c;
+    color: black;
 }
 .header .logged-area .btn-group .caret {
     margin-left: 5px;
 }
 
 .navigation {
-    background-color: #4b4c4c;
+    background-color: black;
     position: relative;
 }
 .navigation ul {
@@ -185,7 +185,7 @@ input:focus {
 }
 .navigation ul li a.active,
 .navigation ul li a:hover {
-    background-color: #4b4c4c;
+    background-color: #292929;
     text-decoration: none
 }
 .banner-box {
@@ -293,7 +293,7 @@ a.maisBanner:hover {
     width: 100%;
 }
 .footer {
-    background-color: #4b4c4c;
+    background-color: black;
     margin-top: 30px;
     color: #ececfb;
     letter-spacing: 1px;
@@ -850,14 +850,14 @@ a.maisBanner:hover {
     margin-top: 5px
 }
 .error-page .inner-error .box-error p {
-    color: #8d57a3;
+    color: #4b4c4c;
     font-weight: bold;
     margin: 10px 0;
     font-size: 16px
 }
 .error-page .inner-error .box-error p a {
     display: inline-block;
-    color: #662c91
+    color: #4b4c4c
 }
 .error-page .inner-error .box-error p a:hover {
     text-decoration: underline
@@ -892,7 +892,7 @@ a.maisBanner:hover {
 }
 .icon-link-home {
     padding: 6px 30px;
-    background-color: #662c91;
+    background-color: #4b4c4c;
     color: #fff !important;
     font-size: 16px;
     font-family: 'Quattrocento Sans', sans-serif;
@@ -903,7 +903,7 @@ a.maisBanner:hover {
     transition: all .4s ease-out;
 }
 .icon-link-home:hover {
-    background-color: #8d57a3
+    background-color: #4b4c4c
 }
 
 
@@ -970,7 +970,7 @@ a.maisBanner:hover {
     width: 100%;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    background-color: #fff;
+    background-color: rgb(82, 82, 82);
 }
 
 .btn_menu_mobile span:before {
@@ -1405,6 +1405,7 @@ a.maisBanner:hover {
     .navigation ul {
         text-align: center;
     }
+    
 }
 
 @media (max-width: 768px) {
