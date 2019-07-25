@@ -12,7 +12,7 @@ $assunto = $_REQUEST['subject'];
  // monta o e-mail na variavel $body
 
 $body = "===================================" . "\n";
-$body = $body . "FALE CONOSCO - TESTE COMPROVATIVO" . "\n";
+$body = $body . "FALE CONOSCO - TESTE " . "\n";
 $body = $body . "===================================" . "\n\n";
 $body = $body . "Nome: " . $nome . "\n";
 $body = $body . "Email: " . $email . "\n";
